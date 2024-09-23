@@ -471,6 +471,9 @@ footer {
   padding-right: 10px;
   background-color: var(--main-hover);
 }
+.wrap-icon:not(:hover) {
+  animation: circlee 0.4s linear;
+}
 .text-name {
   font-weight: 500;
   color: var(--main-color);
