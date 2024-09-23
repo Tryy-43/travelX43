@@ -472,7 +472,7 @@ footer {
   background-color: var(--main-hover);
 }
 .wrap-icon:not(:hover) {
-  animation: circlee 1s linear;
+  animation: circlee 0.4s linear;
 }
 .text-name {
   font-weight: 500;
@@ -616,6 +616,9 @@ footer {
   }
   .wrap-icon::before {
     display: none;
+  }
+  .wrap-icon:not(:hover) {
+    animation: circlee 1s linear !important;
   }
 }
 @media screen and (min-width: 576px) {
